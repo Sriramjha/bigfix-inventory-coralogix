@@ -1,0 +1,7 @@
+.venv/
+.venv_bigfix/
+.env
+bigfix_coralogix.env
+__pycache__/
+*.pyc
+logs/

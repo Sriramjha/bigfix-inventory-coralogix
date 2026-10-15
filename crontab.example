@@ -1,0 +1,8 @@
+# BigFix computer inventory -> Coralogix (once a day, 02:15 server time)
+# Install: edit the path, then: crontab crontab.example
+#
+# SHELL=/bin/bash
+# 15 2 * * * INSTALL_PATH/scripts/run_daily.sh >> INSTALL_PATH/logs/inventory.log 2>&1
+
+SHELL=/bin/bash
+15 2 * * * /opt/bigfix-inventory-coralogix/scripts/run_daily.sh >> /opt/bigfix-inventory-coralogix/logs/inventory.log 2>&1
